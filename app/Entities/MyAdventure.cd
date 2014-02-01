@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MyAdventure.Entities.Case">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAABQAAgAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Entities\Case.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyAdventure.Entities.Condition">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Entities\Condition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyAdventure.Entities.Effect">
+    <Position X="5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAIQAAAAAACAA=</HashCode>
+      <FileName>Entities\Effect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyAdventure.Entities.HotSpot">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HotSpot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyAdventure.Entities.Item">
+    <Position X="5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAACAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyAdventure.Entities.Node">
+    <Position X="1.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAABAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Node.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyAdventure.Entities.Transition">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAIAAAAAAAAAAABIAAAAIQAAAAAAAAA=</HashCode>
+      <FileName>Entities\Transition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
