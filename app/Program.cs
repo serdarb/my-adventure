@@ -19,9 +19,33 @@ namespace MyAdventure
                 Console.WriteLine("Please enter number");
             }
 
-            var backgroundImages = GetNodeInfo(nodeId);
+            var node = GetNodeInfo(nodeId);
+            Console.WriteLine("you are on " + node.Name);
+            Console.WriteLine(Environment.NewLine);
+
+            Console.WriteLine("room is in these conditions");
+            foreach (var condition in node.Cases[0].Conditions)
+            {
+                Console.WriteLine(condition.FlagName + " : " + condition.IsOn);
+            }
+            Console.WriteLine(Environment.NewLine);
+
+            Console.WriteLine("room has these items");
+            foreach (var item in node.Cases[0].Items)
+            {
+                Console.WriteLine(item.Name + " @ " + item.HotSpot.TopLeft + "x" + item.HotSpot.BottomRight);
+            }
+            Console.WriteLine(Environment.NewLine);
 
 
+            Console.WriteLine("room has these effects");
+            foreach (var item in node.Cases[0].Effects)
+            {
+                Console.WriteLine(item.Name);
+            }
+            Console.WriteLine(Environment.NewLine);
+
+            Console.ReadLine();
         }
 
         private static Node GetNodeInfo(int nodeId)
@@ -80,6 +104,20 @@ namespace MyAdventure
                                 Name = "Plane",
                                 Type = "3D Effect",
                                 SoundPath = "/sound/effect/5.ogg",
+                                Detail ="???"
+                            },
+                            new Effect
+                            {
+                                Name = "BirdSinging",
+                                Type = "Sound",
+                                SoundPath = "/sound/effect/15.ogg",
+                                Detail ="???"
+                            },
+                            new Effect
+                            {
+                                Name = "PhoneRinging",
+                                Type = "Sound",
+                                SoundPath = "/sound/effect/15.ogg",
                                 Detail ="???"
                             }
                         },
