@@ -49,16 +49,17 @@
     <Compile Include="Entities\HotSpot.cs" />
     <Compile Include="Entities\Item.cs" />
     <Compile Include="Entities\Node.cs" />
+    <Compile Include="Entities\PanoramaPhoto.cs" />
     <Compile Include="Entities\Transition.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Entities\MyAdventure.cd" />
+    <None Include="MyAdventure.cd" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Services\" />
+    <Content Include="batu.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

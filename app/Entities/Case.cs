@@ -6,7 +6,7 @@ namespace MyAdventure.Entities
     {
         public List<Condition> Conditions { get; set; }
 
-        public List<string> PanoramaPhotos { get; set; }
+        public List<PanoramaPhoto> PanoramaPhotos { get; set; }
         public List<Item> Items { get; set; }
         public List<Effect> Effects { get; set; }
         public List<Transition> Transitions { get; set; }
